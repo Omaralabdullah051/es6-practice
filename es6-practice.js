@@ -129,3 +129,11 @@ class Bmw extends Car {
 const bmw = new Bmw('bmw', 2017, '10 millons');
 console.log(bmw);
 bmw.getDescription();
+
+//prototype 
+//code this in a browser to see prototype property of any function
+//console.dir() is the upgraded version of console.log()
+const f = function () { };
+console.dir(f);
+//so prototype  is a property of every function;which points to an object. When we create a function using javascript; the javascript engine adds a prototype property inside a function. Prototype property is basically an object (also known as Prototype object), where we can attach methods and properties in a prototype object, which enables all the other objects to inherit these methods and properties.
+//when we use class methods in js and when we inherits the methods and properties from one class to another class;the js exactly inherits the methods and properties prototypically.js protopically inherits the methods and properties from prototype object to another objects.
