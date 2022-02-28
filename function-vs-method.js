@@ -11,5 +11,5 @@
 // console.log(b);
 //so array is created from new keyword and Array() function.
 //so Array() is a function and it has a property which is prototype.
-//prototype is also an object and it has many properties.in that we will found keys and values;and the values is a function.so this values is called method.as like as indexof(),find(),map(),includes(),etc.so that is why we call these an array method.
+//prototype is also an object and it has many properties.in that we will found keys and values;and the values is a function.so this properties is called method.as like as indexof(),find(),map(),includes(),etc.so that is why we call these an array method.
 
